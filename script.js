@@ -62,7 +62,7 @@ function setDate(){
             break;
     }
 
-    time.textContent = `${hrs}:${min}`
+    time.textContent = `${hrs}:${min}:${sec}`
     date.textContent = `${day} ${setMonth}, ${year}`    
 }
 
