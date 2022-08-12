@@ -39,8 +39,6 @@ body{
     height: 30px;
     background: #605E65;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
     border: 5px solid white;
 }
 
@@ -70,18 +68,12 @@ body{
 
 .time{
     margin: 50px 0;
-    font-style: normal;
-    font-weight: 600;
     font-size: 70px;
-    line-height: 50px;
-    letter-spacing: 1px;
     color: #000000;
 }
 
 .date{
-    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     color: #605E65;
 }
 
