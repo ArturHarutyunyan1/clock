@@ -1,0 +1,19 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "JavaScript clock app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturHarutyunyan1/clock.git"
+  },
+  "author": "Artur Harutyunyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArturHarutyunyan1/clock/issues"
+  },
+  "homepage": "https://github.com/ArturHarutyunyan1/clock#readme"
+}
