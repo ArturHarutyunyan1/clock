@@ -7,10 +7,10 @@ const date       = document.querySelector('.date')
 function setDate(){
     const now = new Date()
 
-    let sec = now.getSeconds()
-    let min = now.getMinutes()
-    let hrs = now.getHours()
-    let day = now.getDate()
+    let sec   = now.getSeconds()
+    let min   = now.getMinutes()
+    let hrs   = now.getHours()
+    let day   = now.getDate()
     let month = now.getMonth() + 1
     let year  = now.getFullYear()
     let setMonth
