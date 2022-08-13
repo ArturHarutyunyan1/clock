@@ -19,10 +19,6 @@ function setDate(){
     minuteHand.style.transform = `rotate(${((min / 60) * 360) + ((sec / 60) * 6) + 90}deg)`
     hourHand.style.transform   = `rotate(${((hrs / 12) * 360) + ((min / 60) * 30) + 90}deg)`
 
-    if(min <= 10){
-        min = `0${now.getMinutes()}`
-    }
-
     switch (month) {
         case 1:
             setMonth = 'Jan'
@@ -60,6 +56,16 @@ function setDate(){
         case 12:
             setMonth = 'Dec'
             break;
+    }
+
+    if(hrs < 10){
+        hrs = `0${hrs}`
+    }
+    if(min < 10){
+        min = `0${min}`
+    }
+    if(sec < 10){
+        sec = `0${sec}`
     }
 
     time.textContent = `${hrs}:${min}:${sec}`

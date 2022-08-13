@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 
-.a{
+.circle{
     width: 30px;
     height: 30px;
     background: #605E65;
@@ -52,7 +52,7 @@ body{
 }
 
 .second{
-    height: 190px;
+    height: 170px;
     right: 209px;
 }
 
@@ -62,13 +62,14 @@ body{
 }
 
 .hour{
-    height: 130px;
+    height: 120px;
     right: 208px;
 }
 
 .time{
     margin: 50px 0;
     font-size: 70px;
+    font-weight: 700;
     color: #000000;
 }
 
