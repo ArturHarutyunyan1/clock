@@ -15,9 +15,9 @@ function setDate(){
     let year  = now.getFullYear()
     let setMonth
 
-    secondHand.style.transform = `rotate(${((sec / 60) * 360) + 90}deg)`
-    minuteHand.style.transform = `rotate(${((min / 60) * 360) + ((sec / 60) * 6) + 90}deg)`
-    hourHand.style.transform   = `rotate(${((hrs / 12) * 360) + ((min / 60) * 30) + 90}deg)`
+    secondHand.style.transform = `rotate(${6 * sec}deg)`
+    minuteHand.style.transform = `rotate(${6 * min}deg)`
+    hourHand.style.transform   = `rotate(${30 * hrs + min / 2}deg)`
 
     switch (month) {
         case 1:
